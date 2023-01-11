@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&family=Noto+Serif&display=swap');
+
+*{
+    margin: 0;
+}
+
+/* HEADER */
+.nav{
+    width: 100%;
+    height: 12vh;
+    background: rgb(225,247,156);
+    background: linear-gradient(90deg, rgba(225,247,156,1) 0%, rgb(104, 139, 152) 49%, rgba(225,247,156,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+
+.menuNav{
+    margin-left: 8em;
+    margin-top: 6vh;       
+}
+
+.menuNav a{
+    margin: .5em;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #282828;
+}
+
+
+.navButton button{
+    margin-right: 8em;
+    margin-top: 4.5vh;
+    font-size:16px;
+    font-family:'Manrope', sans-serif;
+    font-weight: 500;
+    width:120px;
+    height:40px;
+    border-width:0px;
+    color: #e1f79c;
+    border-radius: 55%;
+    background: #688b98;
+    opacity: 92%;
+}
+
+/*LINEAS */
+
+.separador{
+    border-top: 2px solid #282828;
+    width: 100%; 
+}
+
+.separador2{
+    border-left: 1.9px solid #282828;
+    height: 100%;
+}
+
+.separador3{
+    margin-top: 6em;
+    border-top: 2px solid #282828;
+    width: 100%; 
+}
+
+/*ESTILOS LETRAS*/
+
+.h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 33pt;
+    margin-top: 10vh;
+}
+
+.h1 p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 15pt;
+    opacity: 80%;
+    margin-bottom: 20vh;
+    color: #688b98;
+
+}
+
+.h1 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 h3{
+    margin: 2em;
+    margin-bottom: 0em;
+    margin-top: 1.5em;
+    font-size: 55pt;
+}
+
+/*PRIMER CONTENEDOR */
+
+.contCabecera{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    background: #688B98;
+    background: -webkit-radial-gradient(top, #688B98, #E1F79C);
+    background: -moz-radial-gradient(top, #688B98, #E1F79C);
+    background: radial-gradient(to bottom, #688B98, #E1F79C);
+    margin-top: -1px;
+}
+
+.titulo{
+    width: 50%;
+    margin-left: 8em;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imagenCabecera{
+    width: 50%;
+}
+
+.imagenCabecera img{
+    max-width: 100%;
+    max-height: 80%;
+    margin-top: 8vh;
+    margin-left: 12em;
+    
+}
+
+.imgMiniatura{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -480px;
+    width: 115px;  
+}
+
+.parrafoYboton{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}
+
+.parrafoYboton p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 12pt;
+}
+
+/*PRODUCT LIST*/
+
+.contGeneralProducts{
+    margin-top: -10vh;
+    background: #539596;
+    background: -webkit-radial-gradient(bottom left, #539596, #FFFFFF);
+    background: -moz-radial-gradient(bottom left, #539596, #FFFFFF);
+    background: radial-gradient(to top right, #539596, #FFFFFF);
+}
+
+.contGeneralProducts h2{
+    padding-top: 1.5em;
+}
+
+.productsGeneral{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.productsIzq{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productsIzq img{
+    margin-top: 16vh;
+    width: 55%;
+    margin-left: 8em;
+}
+
+.productsDerch{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productsDerch img{
+    margin-top: 16vh;
+    width: 55%;
+    margin-right: 8em;
+}
+
+.pieImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18pt;
+    color: #688b98;
+    margin: .5em;
+}
+
+.tituloProd{
+    margin-left: 4em;
+}
+
+.precioprod{
+    margin-left: 7em;
+    margin-right: -2em;
+}
+
+.productsDerch .tituloProd{
+    margin-left: -5em;
+}
+
+.productsDerch .precioprod{
+    margin-right: .5em;
+}
+
+.buttonCompra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonCompra button{
+    margin: 2em;
+    font-size:16px;
+    font-family:'Manrope', sans-serif;
+    font-weight: 500;
+    width:120px;
+    height:40px;
+    border-width:0px;
+    color: #e1f79c;
+    border-radius: 55%;
+    background: #688b98;
+    opacity: 92%;
+}
+
+/*SEGUNDO CONTENEDOR*/
+
+.contInfGeneral{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background: #539596;
+    background: -webkit-radial-gradient(top left, #539596, #E1F79C);
+    background: -moz-radial-gradient(top left, #539596, #E1F79C);
+    background: radial-gradient(to bottom right, #539596, #E1F79C);
+}
+
+.infIzq{
+    flex-direction: column;
+    width: 49.5%;
+}
+
+.infDerch{
+    flex-direction: column;
+    width: 49.5%;
+}
+
+.subTitInf p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 15pt;
+    opacity: 80%;
+    color: #688b98;
+    margin: 1em;
+    margin-left: 12em;
+}
+
+.infDerch{
+    text-align: justify;
+    margin: 5em;
+    margin-right: 7em;
+    margin-top: 8em;
+}
+
+.infDerch h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16pt;
+    margin-bottom: 1.5em;
+    color: #688b98;
+}
+
+.infDerch p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 11pt;
+
+}
+
+/*CATEGORY 1 */
+
+
+
+
+
+
+
+
+
+
+
